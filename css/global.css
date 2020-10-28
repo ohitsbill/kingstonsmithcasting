@@ -1,0 +1,105 @@
+html {
+  height:100%;
+  min-height:100%;
+}
+body {
+  /* height:100%; */
+  min-height:100%;
+  position:relative;
+  font-family: 'Lato', sans-serif;
+  background-color: #beefdf;
+  color:#263442;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+}
+
+.large-heading {
+  font-size: 3rem;
+  text-align: center;
+}
+
+p {
+  line-height: 2.1rem;
+}
+
+/* Nav */
+nav {
+  background-color: #263442;
+  border-bottom: 2px solid #beefdf;
+}
+.navbar-dark .navbar-brand {
+  font-family: 'Playfair Display', serif;
+  color:#fff;
+  font-size:1.2rem;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color:#faafa1f2;
+}
+.btn-light {
+  background-color:#263442;
+  border:1px solid #263442;
+  color:#f19d8d;
+}
+.btn-light:hover {
+  background-color:#f19d8d;
+  border:1px solid #f19d8d;
+  color:#263442;
+
+}
+.textLink {
+  color:#263442;
+  text-decoration: none;
+  border-bottom:2px solid #f19d8d;
+}
+
+.textLink:hover {
+  color:#263442;
+  border-bottom:4px solid #f19d8d;
+  text-decoration: none;
+  transition: all .2s ease-in-out;
+}
+
+footer {
+  background-color: #273442;
+  color:#FFF;
+}
+.fixed-footer {
+  position:absolute;
+  bottom:0;
+  width:100%;
+}
+.nav-item a, .webdesign {
+  color:#f19d8d;
+  transition:color 0.2s linear;
+}
+.nav-item a:hover, .webdesign:hover {
+  color:#fff;
+  text-decoration:none;
+}
+
+.copyright {
+  width:100%;
+  color:#f19d8d;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  nav {flex-direction:row;}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .large-heading { font-size: 4rem;}
+  nav {flex-direction:column !important;}
+  .navbar-dark .navbar-brand {font-size:2rem;}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
